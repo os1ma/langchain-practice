@@ -1000,6 +1000,22 @@ requests = ">=2,<3"
 tenacity = ">=8.1.0,<9.0.0"
 
 [[package]]
+name = "lark"
+version = "1.1.5"
+description = "a modern parsing library"
+optional = false
+python-versions = "*"
+files = [
+    {file = "lark-1.1.5-py3-none-any.whl", hash = "sha256:8476f9903e93fbde4f6c327f74d79e9b4bd0ed9294c5dfa3164ab8c581b5de2a"},
+    {file = "lark-1.1.5.tar.gz", hash = "sha256:4b534eae1f9af5b4ea000bea95776350befe1981658eea3820a01c37e504bb4d"},
+]
+
+[package.extras]
+atomic-cache = ["atomicwrites"]
+nearley = ["js2py"]
+regex = ["regex"]
+
+[[package]]
 name = "lz4"
 version = "4.3.2"
 description = "LZ4 Bindings for Python"
@@ -2476,4 +2492,4 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "9e1edcdaad32f030e61007038b5850a70659d739ebce416cbc0f052a60b8ee7b"
+content-hash = "4c1a5662d4c3ee5fca92974cb7d767c66d2fa74f29284e2965720fc72c2cf99e"

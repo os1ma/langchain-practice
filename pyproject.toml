@@ -15,6 +15,7 @@ bs4 = "^0.0.1"
 chromadb = "^0.3.26"
 tiktoken = "^0.4.0"
 faiss-cpu = "^1.7.4"
+lark = "^1.1.5"
 
 
 [build-system]
