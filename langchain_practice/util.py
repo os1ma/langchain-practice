@@ -1,5 +1,3 @@
-import json
-
 import langchain
 import openai
 from dotenv import load_dotenv
