@@ -18,9 +18,9 @@ tools = [
     ),
 ]
 
-mrkl = initialize_agent(
+agent = initialize_agent(
     tools, llm, agent=AgentType.OPENAI_MULTI_FUNCTIONS, verbose=True
 )
 
-res = mrkl.run("What is the weather in LA and SF?")
+res = agent.run("What is the weather in LA and SF?")
 print(res)
