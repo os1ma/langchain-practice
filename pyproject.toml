@@ -8,7 +8,7 @@ packages = [{include = "langchain_practice"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-langchain = "^0.0.224"
+langchain = "0.0.240"
 openai = "^0.27.8"
 python-dotenv = "^1.0.0"
 bs4 = "^0.0.1"
