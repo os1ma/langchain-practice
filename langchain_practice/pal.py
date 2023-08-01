@@ -1,5 +1,5 @@
 from langchain import OpenAI
-from langchain.chains import PALChain
+from langchain_experimental.pal_chain import PALChain
 from util import initialize
 
 initialize()
